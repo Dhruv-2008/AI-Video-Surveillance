@@ -1,0 +1,41 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    font-family: monospace;
+}
+
+#start{
+    font-size: 20px;
+    box-shadow: 5px 5px 10px greenyellow;
+}
+
+#start:hover{
+    font-size: 22px;
+}
+
+#number_of_objects, #status{
+    font-size: 20px;
+    box-shadow: 5px 5px 10px rgb(255, 141, 47);
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    line-height: 3;
+    text-align: center;
+    color: white;
+}
+
+canvas{
+    border: 5px solid white;
+    border-style: ridge;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 10px white;
+}
